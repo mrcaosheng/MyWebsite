@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+    <!-- <meta charset="utf-8" /> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <title>Page Title</title> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <link href="/static/main/css/main.css" rel="stylesheet" type="text/css" charset="utf-8">
+    <!-- <link href="static/css/main.css" rel="stylesheet" type="text/css" charset="utf-8"> -->
+    <!-- <script src="/static/js/main.js"></script> -->
+</head>
+<body >
+    <div class="index-head">
+        <div class="nav">
+            <ul class="head-ul-left">
+                <li><a href="">CMS</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Tally</a></li>
+            </ul>
+            <ul class="head-ul-right">
+                <li><a href="/main/register">Register</a></li>
+                <li><a href="{% url 'main:login' %}">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="index-middle">
+        <div class="introduce">
+            <p class="introduce-show">Introduce</p><br/>
+            <p class="introduce-detailed ">NAME:CSATAI</p>
+            <p class="introduce-detailed ">ADDRESS:ChangSha</p>
+            <p class="introduce-detailed ">PROFESSION:Python</p>
+        </div>
+    </div>
+    <div id="index-footer"></div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* CSS Document */
+body{
+    width: 100%;
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    /* background-color: rgb(29, 4, 4); */
+    background-image: url(/static/main/img/index.jpg)
+}
+.index-head{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+}
+.nav{
+    height: 40px;  
+    border-top: rgb(5, 15, 5) 2px solid;  
+    border-bottom: rgb(9, 19, 9) 2px solid;  
+    background-color: rgb(20, 26, 8); 
+}
+.head-ul-left{
+    list-style: none;
+    margin-left: 50px;
+}
+.head-ul-right{
+    list-style: none;
+    margin-right: 50px
+}
+.head-ul-left li{
+    display: block;
+    line-height: 40px;
+    float: left;
+}
+.head-ul-right li{
+    display: block;
+    line-height: 40px;
+    float: right;
+}
+.nav a {  
+    color: #fff;  
+    text-decoration: none;  
+    padding: 20px 20px;  
+}  
+.index-middle{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+    /* height: 200px; */
+}
+.introduce{
+    float: right;
+    margin-top: 100px;
+    margin-right: 35%;
+    width: 100px;
+}
+.introduce-show{
+    font-size: 50px;
+}
+.introduce-detailed{
+    font-size: 30px;
+}
+  
